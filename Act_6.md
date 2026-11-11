@@ -55,12 +55,6 @@ public class GestorInventario {
         GestorInventario item =
                 new GestorInventario("Laptop Pro", 12500.0, 8);
 
-        item.procesarActualizacion(
-                "Laptop Pro",
-                12500.0,
-                8
-        );
-
         double totalFinal =
                 item.calcularTotalInventario(10.0);
 
